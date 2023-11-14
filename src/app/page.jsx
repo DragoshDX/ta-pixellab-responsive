@@ -1,9 +1,7 @@
-'use client';
-
 import ProductTile from '@/components/catalog/ProductTile';
 import Footer from '@/components/common/Footer';
 import Header from '@/components/common/Header';
-import HomeCarousel from '@/components/home/HomeCarousel';
+import { HomeCarousel } from '@/components/home';
 import HomeCatalogPreview from '@/components/home/HomeCatalogPreview';
 import HomeNewsletter from '@/components/home/HomeNewsletter';
 import Payment from '@/components/home/Payment';

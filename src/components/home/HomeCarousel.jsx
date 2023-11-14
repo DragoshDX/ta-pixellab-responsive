@@ -1,5 +1,3 @@
-'use client';
-
 import Glide from '@glidejs/glide';
 import { useEffect, useRef } from 'react';
 
