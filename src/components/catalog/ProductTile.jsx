@@ -1,13 +1,12 @@
-export default function ProductTile() {
+export default function ProductTile({ images }) {
+  const { main: mainImage, alt: altImage } = images;
+
   return (
     <article className="product-tile">
       <header className="product-tile-header">
         <a href="/" tile="Thread Affair Monochrome Suit">
           <picture>
-            <img
-              src="/images/products/product-01a.jpg"
-              alt="Thread Affair Monochrome Suit"
-            />
+            <img src={mainImage} alt="Thread Affair Monochrome Suit" />
           </picture>
         </a>
 
